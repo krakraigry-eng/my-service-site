@@ -1,0 +1,41 @@
+.goToBackBox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10%;
+}
+
+.linkGoToBack{
+    color: rgb(98, 98, 98);
+}
+
+.contactForm{
+    width: 500px;
+    height: 500px;
+    background: rgb(126, 123, 123);
+    position: absolute;
+    left: 70vh;
+    top: 10vh;
+    text-align: center;
+}
+.titleForm{
+    font-size: 32px;
+}
+
+.textInput{
+    display: block;
+    width: 200px;
+    margin-top: 10%;
+    margin-left:28%;
+}
+
+.submitBtn{
+    margin-top: 28%;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background: orangered;
+}
+.submitBtn:hover{
+    background: rgb(215, 58, 1);
+}
