@@ -7,6 +7,8 @@ aside{
     top: 0;
     left: 0;
     overflow-y: hidden;
+    overflow-x: hidden;
+
     padding-top: 2%;
     
     
@@ -16,7 +18,7 @@ aside{
     color: white;
     text-decoration: none;
     font-size: 24px;
-    margin-left:93%;
+    margin-left:91%;
     margin-top: -4%;
 }
 
