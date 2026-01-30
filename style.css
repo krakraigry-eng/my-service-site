@@ -4,6 +4,12 @@ body{
 
 .contentBox{ 
     text-align: center;
+    
+}
+
+#aboutContent{
+    font-weight: bold;
+    font-size: 130%;
 }
 
 .btnBuy{
@@ -23,16 +29,4 @@ body{
     margin-top: 1pt;
 }
 
-.likeBtn{
-    border-radius: 10px;
-}
 
-.textLike{
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.likeBtn:hover{
-    background: rgb(176, 176, 176);
-    border-radius: 30px;
-}
