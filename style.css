@@ -29,4 +29,35 @@ body{
     margin-top: 1pt;
 }
 
+@media (max-width: 768px) {
+    body{
+    background-color: rgb(120, 227, 231);
+}
 
+.contentBox{ 
+    text-align: center;
+    
+}
+
+#aboutContent{
+    font-weight: bold;
+    font-size: 130%;
+}
+
+.btnBuy{
+    background: rgb(3, 195, 3);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.btnBuy:hover{
+    background-color: rgb(7, 131, 1);
+}
+
+.lickeBtnContentBox{
+    margin-top: 1pt;
+}
+}

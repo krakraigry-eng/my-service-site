@@ -1,5 +1,9 @@
+
+    
+
+
 aside{
-    height: 13%;
+    height: auto;
     width: 100%;
     background-color: #333;
     color: white;
@@ -10,9 +14,9 @@ aside{
     overflow-x: hidden;
 
     padding-top: 2%;
-    
-    
 }
+    
+
 
 .allLinks{
     color: white;
@@ -69,3 +73,86 @@ color: rgb(108, 255, 243);
     
 }
 
+
+@media (max-width: 768px) {
+  
+    
+    
+
+
+aside{
+    height: auto;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    padding-top: 2%;
+}
+    
+
+
+.allLinks{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left:79%;
+    margin-top: -4%;
+}
+
+
+.logoImg{
+    width: 15%;
+    margin-top: -3%;
+
+
+
+}
+.logoName{
+    margin-left: 16%;
+    margin-top: -15%;
+}
+
+.allOrder{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    justify-content: center;
+
+    
+}
+body{
+    margin-top: 25%;
+}
+
+.allOrder a{
+color: rgb(108, 255, 243);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.allOrder img{
+    width: 100%;
+}
+
+.wpOrder{
+    height: 250px;
+    width: 250px;
+    background: rgb(161, 160, 160);
+    text-align: center;
+}
+
+.verstkaOrder{
+    height: 250px;
+    width: 250px;
+    background: rgb(161, 160, 160);
+    text-align: center;
+    
+}
+    
+    
+}

@@ -39,3 +39,45 @@
 .submitBtn:hover{
     background: rgb(215, 58, 1);
 }
+
+@media (max-width:768px) {
+    .goToBackBox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10%;
+}
+
+.linkGoToBack{
+    color: rgb(98, 98, 98);
+}
+
+.contactForm{
+    width: 80%;
+    height: 50%;
+    background: rgb(126, 123, 123);
+    margin-left: -100%;
+    margin-top: 10%;
+}
+.titleForm{
+    font-size: 32px;
+}
+
+.textInput{
+    display: block;
+    width: 60%;
+    margin-top: 10%;
+    margin-left:20%;
+}
+
+.submitBtn{
+    margin-top: 2%;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background: orangered;
+}
+.submitBtn:hover{
+    background: rgb(215, 58, 1);
+}
+}
