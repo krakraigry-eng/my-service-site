@@ -1,3 +1,4 @@
+
 .goToBackBox{
     position: absolute;
     left: 0;
@@ -41,11 +42,13 @@
 }
 
 @media (max-width:768px) {
-    .goToBackBox{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 10%;
+
+
+.goToBackBox{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    width: auto;
 }
 
 .linkGoToBack{
@@ -53,8 +56,9 @@
 }
 
 .contactForm{
-    width: 80%;
-    height: 50%;
+    padding: 8%;
+    width: auto;
+    height: auto;
     background: rgb(126, 123, 123);
     margin-left: -100%;
     margin-top: 10%;
