@@ -41,57 +41,65 @@
     background: rgb(215, 58, 1);
 }
 
-@media (max-width:768px) {
-
-* {
-    max-width: 100%;
-    overflow-x: hidden; /* Запобігає горизонтальному скролу */
-}
-
-body {
-    width: 100%;
-    overflow-x: hidden; /* Додаткова перестраховка */
-}
-
-
-.goToBackBox{
-    position: fixed;
-    left: 20px;
-    top: 20px;
-    width: auto;
-}
-
-.linkGoToBack{
-    color: rgb(98, 98, 98);
-}
-
-.contactForm{
-    padding: 8%;
-    width: auto;
-    height: auto;
-    background: rgb(126, 123, 123);
-    margin-left: -100%;
-    margin-top: 10%;
-}
-.titleForm{
-    font-size: 32px;
-}
-
-.textInput{
-    display: block;
-    width: 60%;
-    margin-top: 10%;
-    margin-left:20%;
-}
-
-.submitBtn{
-    margin-top: 2%;
+@media (max-width: 480px) {
+    body {
+       font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
     padding: 20px;
-    border: none;
-    border-radius: 20px;
-    background: orangered;
+    }
+    
+    .goToBackBox {
+        left: 10px;
+        top: 10px;
+        max-width: calc(100% - 20px);
+    }
+    
+    .linkGoToBack {
+        font-size: 14px;
+        padding: 6px 10px;
+        white-space: normal; /* Дозволяє переноситись */
+    }
+    
+    .contactForm {
+        width: 100%; /* На малих екранах - вся ширина */
+        padding: 25px 20px;
+        margin-top: 70px;
+        border-radius: 10px;
+        text-align: center;
+
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .textInput {
+        padding: 10px;
+        font-size: 15px;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .inputMessge.textInput {
+        height: 100px;
+        min-height: 100px;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .submitBtn {
+        padding: 12px 30px;
+        width: 90%; /* Широка кнопка на телефонах */
+        max-width: 250px;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-.submitBtn:hover{
-    background: rgb(215, 58, 1);
-}
+
+/* Тільки для дебагу - можна видалити */
+.debug-outline * {
+    outline: 1px solid rgba(255,0,0,0.1);
 }
