@@ -43,6 +43,16 @@
 
 @media (max-width:768px) {
 
+* {
+    max-width: 100%;
+    overflow-x: hidden; /* Запобігає горизонтальному скролу */
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden; /* Додаткова перестраховка */
+}
+
 
 .goToBackBox{
     position: fixed;
@@ -56,6 +66,7 @@
 }
 
 .contactForm{
+    padding: 8%;
     width: auto;
     height: auto;
     background: rgb(126, 123, 123);
